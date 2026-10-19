@@ -1,0 +1,21 @@
+name: Feature request
+description: A cleaning job ScrubBot does not handle yet, or something that should be easier.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to clean or fix?
+      description: "Describe the messy data and what clean looks like. Made-up examples only, please."
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you handle it today?
+      description: "Excel, a script, OpenRefine, by hand..."
+  - type: textarea
+    id: example
+    attributes:
+      label: Example before and after
+      render: text
